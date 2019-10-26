@@ -1,0 +1,47 @@
+body {
+  background-color: #001205;
+}
+
+.logo {
+  color: #e61a17;
+  text-align: center;
+}
+
+.main__font__color {
+  color: #00ab2e;
+}
+
+.second__font__color {
+  color: #00641b;
+}
+
+.third__font__color {
+  color: #8ecf9f;
+}
+
+.four__font__color {
+  color: white;
+}
+
+.button {
+  background-color: #00ab2e;
+  color: white;
+}
+
+.input {
+  background-color: #001205 !important;
+  border: 2px solid #00ab2e;
+  color: #00641b !important;
+}
+
+::placeholder {
+  color: #00641b;
+}
+
+.login-bg {
+  background-image: url("login.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  width: 100%;
+}
