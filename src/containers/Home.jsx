@@ -7,7 +7,7 @@ import CarouselItem from '../components/CarouselItem';
 import Hero from '../components/Hero';
 import '../assets/styles/App.scss';
 
-const Home = ({ myList, trends, originals }) => {
+const Home = ({ myList, trends, originals, series }) => {
   return (
     <>
       <Hero />
@@ -25,16 +25,22 @@ const Home = ({ myList, trends, originals }) => {
           </Carousel>
         </Categories>
       )}
-      <Categories title='Tendencias'>
+      <Categories title='Libros'>
         <Carousel>
           {trends.map((item) => <CarouselItem key={item.id} {...item} />)}
+          <CarouselItem />
         </Carousel>
       </Categories>
-      <Categories title='Originales'>
+      <Categories title='Películas'>
         <Carousel>
           {originals.map((item) => <CarouselItem key={item.id} {...item} />)}
           <CarouselItem />
         </Carousel>
+      </Categories>
+      <Categories title='Series'>
+          <Carousel>
+              {series.map((item) => <CarouselItem key={item.id} {...item}/>)}
+          </Carousel>
       </Categories>
     </>
   );
@@ -45,6 +51,7 @@ const mapStateToProps = (state) => {
     myList: state.myList,
     trends: state.trends,
     originals: state.originals,
+      series: state.series
   };
 };
 
