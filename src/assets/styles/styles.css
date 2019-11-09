@@ -1,0 +1,60 @@
+.contenedorcito {
+    display: flex;
+}
+
+.logo {
+    color: rgba(255, 255, 255, 0.3);
+    text-align: center;
+  }
+  
+  .main__font__color {
+    color: #657f0b;
+  }
+  
+  .second__font__color {
+    color: #657f0b;
+  }
+  
+  .third__font__color {
+    color: #657f0b;
+  }
+  
+  .four__font__color {
+    color: white;
+  }
+  
+  .button {
+    background-color: #00ab2e;
+    color: white;
+  }
+  
+  .input {
+    background-color: #434040 !important;
+    border: 2px solid #657f0b;
+    color: #657f0b !important;
+  }
+  
+  ::placeholder {
+    color: #657f0b;
+  }
+  
+  .login-bg {
+    background-image: url('../static/login.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    width: 100%;
+  }
+
+  .logo {
+    background-image: url('../static/logo-stephenkingmania.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+  }
+
+  .logincito img {
+    max-width: 100%;
+    max-height: 100%;
+  }
+  
