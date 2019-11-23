@@ -1,0 +1,9 @@
+export const ALBUM_CARGANDO = "album_cargando";
+export const ALBUM_ERROR = "album_error";
+export const ALBUM_DATA = "album_data";
+export const ALBUM_LIMPIAR = "album";
+export const ALBUM_GET = "album_get";
+export const ALBUM_READBYID = "album_readbyid";
+export const ALBUM_POST = "album_post";
+export const ALBUM_PUT = "album_put";
+export const ALBUM_GETALL = "album_getall";
