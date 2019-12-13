@@ -12,7 +12,7 @@
     -webkit-transform-origin: center left;
             transform-origin: center left;
   }
-  
+
   .carousel-item:hover ~ .carousel-item {
     -webkit-transform: translate3d(100px, 0, 0);
             transform: translate3d(100px, 0, 0);
@@ -52,11 +52,11 @@
   
   .carousel-item__details--title {
     color: white;
-    margin: 5px 0px 0px 0px;
+    margin: 5px 0 0 0;
   }
   
   .carousel-item__details--subtitle {
     color: white;
     font-size: 8px;
-    margin: 3px 0px;
+    margin: 3px 0;
   }

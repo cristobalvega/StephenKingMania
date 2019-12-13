@@ -1,4 +1,3 @@
-/* Headers  */
 .HeroContent {
     -webkit-background-size: contain;
     -moz-background-size: contain;
@@ -12,10 +11,13 @@
     display: grid;
     -webkit-box-pack: center;
     -moz-box-pack: center;
-    -o-box-pack: center;
     -ms-flex-pack: center;
     -webkit-justify-content: center;
     justify-content: center;
+}
+
+.HeroContent-container {
+    -o-box-pack: center;
 }
 
 .HeroContent-content {
@@ -38,13 +40,12 @@
 }
 
 .HeroContent-stats-item span {
-    font-size: 'Lato', sans-serif;
+    font: 'Lato', sans-serif;
     font-size: 16px;
     display: -webkit-box;
     display: -moz-box;
     display: -webkit-flex;
     display: -ms-flexbox;
-    display: box;
     display: flex;
 }
 
@@ -55,10 +56,13 @@
     display: block;
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
     box-sizing: border-box;
     height: 287px;
     object-fit: contain;
+}
+
+.HeroContent-image {
+    -moz-box-sizing: border-box;
 }
 
 .HeroContent-image img {
