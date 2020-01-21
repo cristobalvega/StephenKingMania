@@ -26,7 +26,7 @@ const Hero = () => {
                 </div>
               </div>
               <div className='HeroContent-action'>
-                <a href='/clases' className='btn btn-green'>
+                  <a href='/clases' className='btn btn-green'>
                   <span>Aportar a la comunidad</span>
                 </a>
               </div>

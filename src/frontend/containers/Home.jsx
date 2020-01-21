@@ -38,9 +38,9 @@ const Home = ({ myList, trends, originals, series }) => {
         </Carousel>
       </Categories>
       <Categories title='Series'>
-          <Carousel>
-              {series.map((item) => <CarouselItem key={item.id} {...item}/>)}
-          </Carousel>
+        <Carousel>
+          {series.map((item) => <CarouselItem key={item.id} {...item} />)}
+        </Carousel>
       </Categories>
     </>
   );
@@ -51,7 +51,7 @@ const mapStateToProps = (state) => {
     myList: state.myList,
     trends: state.trends,
     originals: state.originals,
-      series: state.series
+    series: state.series,
   };
 };
 

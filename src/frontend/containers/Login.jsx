@@ -4,8 +4,7 @@ import '../assets/styles/styles.css';
 import logo from '../assets/static/logo-stephenkingmania.png';
 
 const Login = () => {
-  // eslint-disable-next-line prefer-const
-  let history = useHistory();
+  const history = useHistory();
   const handleSubmit = () => {
     history.push('/');
   };

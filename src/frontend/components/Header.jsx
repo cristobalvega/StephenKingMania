@@ -22,13 +22,13 @@ const Header = (props) => {
         <nav className='menu'>
           <ol>
             <li>
-              <a className='link' href='#Inicio'>Inicio</a>
+                Inicio
             </li>
             <li>
-              <a className='link' href='#Communidad'>Comunidad</a>
+                Comunidad
             </li>
             <li>
-              <a className='link' href='#Acerca'>Acerca de nosotros</a>
+                Acerca de nosotros
             </li>
           </ol>
         </nav>
@@ -45,7 +45,8 @@ const Header = (props) => {
             <li><a href='/'>{ user.name }</a></li> :
             null}
           { hasUser ?
-            <li><a href='#logout' onClick={handleLogout}>Cerrar Sesión</a></li> : (
+              // TODO: Cambiar los tags <a> por <button/> con estilos
+            <li><a href='logout' onClick={handleLogout}>Cerrar Sesión</a></li> : (
               <li>
                 <Link to='login'>
                     Iniciar Sesión
