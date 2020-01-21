@@ -1,4 +1,5 @@
 import React from 'react';
+// noinspection ES6CheckImport
 import { useHistory } from 'react-router-dom';
 import '../assets/styles/styles.css';
 import logo from '../assets/static/logo-stephenkingmania.png';
@@ -20,6 +21,7 @@ const Login = () => {
               <p className='second__font__color'>Inicia sesión para continuar.</p>
               <form className='mt-4'>
                 <div className='form-group'>
+                  {/* eslint-disable-next-line jsx-a11y/label-has-associated-control */}
                   <label className='main__font__color font-weight-bold'>
                     Email
                     {' '}
@@ -35,6 +37,7 @@ const Login = () => {
                   />
                 </div>
                 <div className='form-group'>
+                  {/* eslint-disable-next-line jsx-a11y/label-has-associated-control */}
                   <label className='main__font__color font-weight-bold'>
                     Contraseña
                     {' '}
