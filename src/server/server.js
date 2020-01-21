@@ -3,6 +3,7 @@ import dotenv from 'dotenv';
 
 dotenv.config();
 
+// eslint-disable-next-line no-unused-vars
 const ENV = process.env.NODE_ENV;
 const PORT = process.env.PORT || 3000;
 
