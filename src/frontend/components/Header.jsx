@@ -13,6 +13,7 @@ const Header = (props) => {
   const handleLogout = () => {
     props.logoutRequest({});
   };
+  // noinspection HtmlUnknownTarget
   return (
     <header className='header'>
       <Link to='/'>
@@ -45,7 +46,7 @@ const Header = (props) => {
             <li><a href='/'>{ user.name }</a></li> :
             null}
           { hasUser ?
-              // TODO: Cambiar los tags <a> por <button/> con estilos
+          // TODO: Cambiar los tags <a> por <button/> con estilos
             <li><a href='logout' onClick={handleLogout}>Cerrar Sesión</a></li> : (
               <li>
                 <Link to='login'>
