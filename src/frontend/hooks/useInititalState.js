@@ -10,4 +10,5 @@ const useInitialState = (API) => {
   return videos;
 };
 
+// noinspection JSUnusedGlobalSymbols
 export default useInitialState;
