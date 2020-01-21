@@ -3,6 +3,7 @@ import '../assets/styles/components/Hero.scss';
 import HeroPaint from '../assets/static/Stephen-King-paint.jpg';
 
 const Hero = () => {
+  // noinspection HtmlUnknownTarget
   return (
     <section id='home-v4'>
       <div className='LayoutContainer'>
@@ -26,11 +27,12 @@ const Hero = () => {
                 </div>
               </div>
               <div className='HeroContent-action'>
-                  <a href='/clases' className='btn btn-green'>
+                <a href='/clases' className='btn btn-green'>
                   <span>Aportar a la comunidad</span>
                 </a>
               </div>
               <div className='HeroContent-firstClass'>
+                {/* eslint-disable-next-line react/button-has-type */}
                 <button className='btn btn-sky'>
                   <span>Ve el trailer de una película</span>
                 </button>
